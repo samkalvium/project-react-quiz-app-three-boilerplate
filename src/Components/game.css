@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HOMEPAGE STYLING */
+.home-body {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.home-body h1 {
+    font-size: 40px;
+}
+
+.play-btn {
+    background-color: rgb(3, 247, 3);
+    color: white;
+    padding: 10px 65px 10px 65px;
+    margin-top: 2%;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(3, 247, 3);
+}
+
+/* MAINPAGE STYLING  */
+
+.main-body {
+    background-color: white;
+    margin: 30px 60px 30px 50px;
+    padding: 20px;
+}
+
+.main-body h1,
+h3 {
+    text-align: center;
+    padding: 25px;
+}
+
+.mcq {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.mcq button {
+    margin: 10px;
+    margin-left: 30px;
+    width: 350px;
+    /* padding: 5px 200px 5px 200px; */
+    padding: 20px;
+    background-color: rgb(54, 173, 253);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mcq button:hover {
+    background-color: green;
+}
+
+.options {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.options button {
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    background-color: rgb(56, 100, 182);
+}
+
+.prev:hover{
+    background-color: black;
+    color: rgb(56, 100, 182);
+}
+
+.nxt {
+    background-color: green;
+}
+
+.nxt:hover{
+    background-color: black;
+    color: green;
+}
+
+.quit {
+    background-color: red;
+}
+
+.quit:hover{
+    background-color: black;
+    color: red;
+}
+
+
+/* RESULTPAGE STYLING */
+.res{
+    text-align: center;
+    color: green;
+}
+
+.result-body {
+    background-color: white;
+    margin-left: 430px;
+    margin-top: 30px;
+    width: 480px;
+    text-align: center;
+}
+
+.result-body h1 {
+    color: blue;
+}
+
+.flex-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+
+.flex-result h5 {
+    padding: 5px;
+}
+
+.buttons-move {
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons-move button{
+    margin: 10px;
+    padding: 3px 12px 3px 12px;
+}
+
+.ply-again{
+    border: 2px solid rgb(56, 100, 182);
+    color: rgb(56, 100, 182);
+}
+
+.ply-again:hover{
+    background-color: rgb(56, 100, 182);
+    color: white;
+    cursor: pointer;
+}
+
+.back-home {
+   border:2px solid green;
+   color: green;
+}
+
+.back-home:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
