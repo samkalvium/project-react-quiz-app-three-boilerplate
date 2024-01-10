@@ -43,7 +43,7 @@ const Mainpage = ({ scoreUpdate, countUpdate }) => {
             });
         }
         if (state.qn === 15) {
-            alert('End of the quiz');
+            alert('End of the quiz click on FINISH to end the Quiz ');
         }
     };
 
@@ -63,11 +63,15 @@ const Mainpage = ({ scoreUpdate, countUpdate }) => {
         }
     };
 
-    const quit = () => {
-        alert('Are you sure you want to Quit?');
-
+    const finalResult = () => {
         scoreUpdate(score);
         countUpdate(state.qn);
+    }
+
+    const quit = () => {
+        alert('Are you sure you want to Quit?');
+        finalResult();
+
     };
 
     return (
@@ -98,7 +102,7 @@ const Mainpage = ({ scoreUpdate, countUpdate }) => {
                     </button>
                 </Link>
                 <Link to='/results'>
-                    <button>Finish</button>
+                    <button onClick={finalResult}>Finish</button>
                 </Link>
             </div>
         </div>

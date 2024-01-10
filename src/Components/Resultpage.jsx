@@ -17,7 +17,7 @@ const Resultpage = ({ score, count }) => {
           </div>
           <div>
             <h5>15</h5>
-            <h5>{count-1}</h5>
+            <h5>{count}</h5>
             <h5>{score}</h5>
             <h5>{15 - score}</h5>
           </div>
